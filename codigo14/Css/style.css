@@ -1,0 +1,30 @@
+/*
+formato de titulo
+*/
+
+h1{color:aquamarine;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font: size 36px;
+text-align: center;
+}
+h3{color:aquamarine;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font: size 36px;
+text-align: left;
+}
+h4{color:crimson;
+text-align:left;
+font-size:36px;
+}
+
+h5{color:rgb(221, 218, 16);
+
+font-size: 36px;
+text-align: right;
+}
+h6{color:rgb(16, 221, 125);
+
+font-size: 36px;
+text-align: center;
+}
+

@@ -1,0 +1,226 @@
+@font-face{
+    font-family: "Space Grotesk";
+    src: url("../fuentes/SpaceGrotesk-Bold.ttf") format("truetype");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1D2A5B;
+background-color: white;
+margin:0;
+line-height: 1.6;
+}
+
+h1, h2, h3{
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    margin-top:0;
+}
+
+h2{
+    font-size: 32px;
+}
+
+header, nav, section, aside, footer{
+    padding-left:10%;
+    padding-right: 10%;
+}
+
+header{
+    background-color: #1D2A5B;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+header h1{
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+header p{
+    color: #9fc909;
+    font-size: 18px;
+    margin: 0;
+}
+
+nav{
+    background-color: #1F6F88;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+    padding: 14px 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0,3s;
+}
+
+nav a:hover{
+background-color: #F0784B;
+color: #1D2A5B;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bienvenida{
+    background-color: #EAF4F6;
+}
+
+.bienvenida h2{
+    font-size: 40px;
+}
+
+.bienvenida p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.boton{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 26px;
+    background-color: #F0784B;
+    color:#1D2A5B;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover{
+    background-color: #1D2A5B;
+}
+
+.talleres{
+    background-color: white;
+}
+
+article:last-child{
+    margin-right: 0;
+}
+
+article:hover{
+    border-color: #F0784B;
+}
+
+article h3{
+    font-size: 24px;
+    color: #1F6F88;
+    margin-bottom: 6px;
+}
+
+.dato{
+    font-weight: bold;
+    color: #2BA59A;
+    margin-bottom: 0;
+}
+
+.horario{
+    background-color: #1F6F88;
+    color: white;
+}
+
+.horario table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: #1D2A5B;
+}
+
+.horario th{
+    background-color: #1D2A5B;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.horario td{
+    padding: 12px 16px;
+    border-bottom: 1px solid #CFE3EA;
+}
+
+.horario tbody tr:nth-child(even){
+    background-color: #EAF4F6;
+}
+
+.horario tbody tr:hover{
+    background-color: #FFE8D6;
+}
+
+.paleta{
+    background-color: white;
+}
+
+.muestra{
+    display: inline-block;
+    width: 130px;
+    height: 110;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.noche{background-color: #1D2A5B;}
+.petroleo{background-color: #1F6F88;}
+.turquesa{background-color: #2BA59A;}
+.hielo{background-color: #EAF4F6; color: #1D2A5B;border: 2px solid #CFE3EA;}
+.arena {background-color: #FFE8D6; color: #1D2A5B;}
+.coral{background-color: #F0784B; color: #1D2A5B;}
+
+aside{
+    background-color: #FFE8D6;
+    padding-top: 40PX;
+    padding-bottom: 40PX;
+}
+
+aside h2{
+    color: #b4471f;
+}
+
+aside li{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+footer{
+    background-color: #1D2A5B;
+    color: #9fc909;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+footer p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
